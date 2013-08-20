@@ -1,4 +1,4 @@
 install:
 	apt-get install puppet 
-	puppet module install puppetlabs/java
+	puppet module install --force puppetlabs/java
 	puppet apply init.pp
