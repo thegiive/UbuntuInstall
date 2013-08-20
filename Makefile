@@ -1,2 +1,3 @@
 install:
-	sudo apt-get install puppet 
+	apt-get install puppet 
+	puppet module install puppetlabs/java

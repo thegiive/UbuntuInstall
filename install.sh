@@ -3,4 +3,4 @@ sudo apt-get install unzip
 unzip master.zip 
 sudo apt-get install make
 cd UbuntuInstall-master
-make install 
+sudo make install 
